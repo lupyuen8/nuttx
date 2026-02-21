@@ -1,0 +1,100 @@
+# APACHE NUTTX
+
+* Introduction
+* Community
+  - Getting Help
+  - Mailing Lists
+  - Issue Tracker
+  - Source Code
+  - Website Source Code
+* Environments
+  - Installing Cygwin
+  - Ubuntu Bash under Windows 10
+  - Using macOS
+* Installation
+  - Download and Unpack
+  - Semi-Optional apps/ Package
+  - Installation Directories with Spaces in the Path
+  - Downloading from Repositories
+  - Related Repositories
+  - Notes about Header Files
+* Configuring NuttX
+  - Instantiating "Canned" Configurations
+  - Refreshing Configurations
+  - NuttX Configuration Tool
+  - Finding Selections in the Configuration Menus
+  - Reveal Hidden Configuration Options
+  - Make Sure that You are on the Right Platform
+  - Comparing Two Configurations
+  - Making defconfig Files
+  - Incompatibilities with Older Configurations
+  - NuttX Configuration Tool under DOS
+* Toolchains
+  - Cross-Development Toolchains
+  - NuttX Buildroot Toolchain
+* Shells
+* Building NuttX
+  - Building
+  - Re-building
+  - Build Targets and Options
+  - Native Windows Build
+  - Installing GNUWin32
+* Cygwin Build Problems
+  - Strange Path Problems
+  - Window Native Toolchain Issues
+* Documentation
+
+# INTRODUCTION
+
+Apache NuttX is a real-time operating system (RTOS) with an emphasis on
+standards compliance and small footprint. Scalable from 8-bit to 64-bit
+microcontroller environments, the primary governing standards in NuttX are
+POSIX and ANSI standards. Additional standard APIs from Unix and other
+common RTOSs (such as VxWorks) are adopted for functionality not available
+under these standards, or for functionality that is not appropriate for
+deeply-embedded environments (such as fork()).
+
+Extensive documentation can be found on the project wiki:
+  <https://cwiki.apache.org/NUTTX/NuttX>
+
+For brevity, many parts of the documentation will refer to Apache NuttX as
+simply NuttX.
+
+# COMMUNITY
+
+Every volunteer project obtains its strength from the people involved in
+it.  We invite you to participate as much or as little as you choose.
+
+We encourage you to:
+
+  - Use our project and provide feedback.
+  - Provide us with use-cases.
+  - Report bugs and submit patches.
+  - Contribute code or documentation.
+
+## Getting Help
+
+The best place to get help is the developer's mailing list.  Please see
+the following section:
+
+## Mailing Lists
+
+Get help using NuttX or contribute to the project on our mailing lists:
+
+  * <dev@nuttx.apache.org> is for people who want to contribute code to NuttX.
+    * To subscribe, send an email to <dev-subscribe@nuttx.apache.org>.
+    * To unsubscribe, send an email to <dev-unsubscribe@nuttx.apache.org>.
+    * View the archives at:
+      <https://www.mail-archive.com/dev@nuttx.apache.org/>
+
+  * <commits@nuttx.apache.org> is a read-only list that notifies subscribers
+  about commit messages and patches to NuttX.
+    * To subscribe, send an email to <commits-subscribe@nuttx.apache.org>.
+    * To unsubscribe, send an email to <commits-unsubscribe@nuttx.apache.org>.
+    * View the archives at:
+      <https://www.mail-archive.com/commits@nuttx.apache.org/>
+
+## Reporting Security Issues
+
+Found a vulnerability? See our security policy
+[here](https://github.com/apache/nuttx/blob/master/.github/SECURITY.md).
