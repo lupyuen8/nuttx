@@ -1,14 +1,3 @@
-# APACHE NUTTX
-
-* Introduction
-* Community
-  - Getting Help
-  - Mailing Lists
-  - Issue Tracker
-  - Source Code
-  - Website Source Code
-* Environments
-  - Installing Cygwin
   - Ubuntu Bash under Windows 10
   - Using macOS
 * Installation
