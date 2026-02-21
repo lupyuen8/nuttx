@@ -1,9 +1,3 @@
-========
-Security
-========
-
-.. toctree::
-
 Known vulnerabilities
 =====================
 
