@@ -1,8 +1,3 @@
-# APACHE NUTTX
-
-* Introduction
-* Community
-  - Getting Help
   - Mailing Lists
   - Issue Tracker
   - Source Code
